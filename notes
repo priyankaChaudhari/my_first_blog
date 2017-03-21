@@ -1,0 +1,26 @@
+make directory
+change directory
+create virtual environment
+actvate virtual environment
+install pip and django
+then start new project
+run the server but admin part will not work
+do some changes in mysite/settings
+then migrate the database
+now admin part will work
+create new app
+register the newly created app in mysite project in installed_apps
+in blog/models file create model here is post
+then makemigration and migrate the database
+then register the created model into blog/admin.py file.. when we register model then it will create new post tab when we login as admin so that we can view the post table
+now to login into admin create superuser:-
+username	-admin
+Email		-admin@admin.com
+password	-amazatic123
+
+then install git - sudo apt-get install git
+$ git init
+Initialized empty Git repository in ~/djangogirls/.git/
+$ git config --global user.name "Priyanka"
+$ git config --global user.email chaudhari.priyanka2@gmail.com
+
